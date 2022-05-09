@@ -2,7 +2,7 @@
 
 function App() {
   return (
-   <h1>Página principal tes</h1>
+   <h1>Página principal</h1>
   );
 }
 

@@ -1,5 +1,5 @@
 header{
-    background-color: #002c7e;
+    background-color: var(--color-primary);
     height: 60px;
     display: flex;
     align-items: center;

@@ -5,7 +5,7 @@ function Navbar(){
         <header>
           <nav className="container">
             <div className='fmovie-nav-content'>
-              <h1>Filmes</h1>
+              <a href="/"><h1 >Avalie seu Filme</h1></a>
               <a href="https://github.com/claubertamsd">
               <div className="fmovie-contact-container">
                 <GithubIcon/>

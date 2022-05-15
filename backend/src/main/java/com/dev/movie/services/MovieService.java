@@ -30,4 +30,15 @@ public class MovieService {
 		
 		return dto;
 	}
+    
+	public MovieDTO saveMovie(Movie mv){
+		 repository.save(mv);
+		return null;
+	}
 }
+    
+
+
+
+
+

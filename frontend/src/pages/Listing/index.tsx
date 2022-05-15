@@ -37,7 +37,7 @@ function Listing() {
 
   return (
     <>
-      <Pagination page={page} onChange={handlePageChange}/>
+     <Pagination page={page} onChange={handlePageChange}/>
       <div className="container">
         <div className="row">
           {page.content.map(movie => 
@@ -47,7 +47,7 @@ function Listing() {
              </div> 
             )
           )}
-              
+               <Pagination page={page} onChange={handlePageChange}/>
         </div>
       </div>
 

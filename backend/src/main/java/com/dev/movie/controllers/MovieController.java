@@ -23,7 +23,7 @@ public class MovieController {
 	@Autowired
 	private MovieService service;
 
-	@RolesAllowed("user")
+	@RolesAllowed("admin")
 	@GetMapping
 	public Page<MovieDTO> findAll(Pageable pageable){
 		return service.findAll(pageable);
